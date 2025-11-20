@@ -1,0 +1,18 @@
+ul{
+   list-style-type: circle;
+   padding: 0px;
+   border: 2px solid blue
+}
+ul li{
+  padding: 8px;
+  border-bottom: 1px solid gray;
+}
+ol{
+    list-style-type: upper-roman;
+    background: blue;
+}
+ol li{
+    background-color: azure;
+    padding: 10px;
+    border: 30px;
+}
