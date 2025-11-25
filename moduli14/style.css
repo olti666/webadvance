@@ -1,0 +1,21 @@
+article > p{
+    background: red;
+    padding: 20px;
+}
+
+article p{
+    background: green;
+    padding: 20px;
+}
+
+article p{
+    background: gold;
+}
+
+input:in-range{
+    border: 2px solid green;
+}
+
+input:out-of-range{
+    border: 2px solid red;
+}
