@@ -19,3 +19,21 @@ input:in-range{
 input:out-of-range{
     border: 2px solid red;
 }
+
+main:in-range{
+    border: 2px solid ;
+}
+nav a{
+     margin: 20px;
+     padding: 20px;
+}
+nav{
+    background-color: blue;
+    padding: 20px;
+}
+nav a:hover{
+    background-color: rgb(114, 20, 238);
+}
+nav a:active{
+    background-color: rgb(119, 255, 210);
+}
