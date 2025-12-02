@@ -15,7 +15,6 @@ div#div2{
     left: 1000px;
     top: 100px;
 }
-
 div#div2{
     position: fixed;
     border: 3px solid black;
@@ -24,4 +23,53 @@ div#div2{
     margin-top: 100px;
     top: 100px;
     right:150px;
+}
+
+#parent{
+    position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+#child{
+    position: absolute;
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    right: 20px;
+    left: 20px; 
+}
+#horizontal ul{
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 20px;
+}
+#horizontal ul li{
+    float: left;
+}
+#horizontal ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+#horizontal ul li a:hover{
+background-color: aqua;
+}
+#vertikak ul{
+    list-style-type: none;
+    background-color: black;
+    margin-bottom: 100px;
+    overflow: hidden;
+    padding: 20px;
+}
+#vertikal ul li{
+padding: 10px;}
+
+#vertikal ul li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
 }
