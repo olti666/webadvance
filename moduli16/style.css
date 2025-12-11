@@ -18,3 +18,35 @@
     padding: 15px;
     text-align: center;
 }
+
+.sprite{
+    background: url(image\ \(2\).png);
+}
+
+.enggriers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0 0;
+}
+
+.hipster{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: 0px -500px;
+}
+
+.shadow{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px 0px;
+}
+
+.speedster{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-position: -500px -500px;
+}
